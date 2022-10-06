@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Web Development Project 1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js",
+		"liveServer.settings.CustomBrowser": "firefox"
+	}
+}

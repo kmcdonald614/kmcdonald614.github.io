@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Home Page</h1>
+	<title>Home</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="Home-Page-Class">
+    
+    <div class="grid-x grid-padding-x">
+        <button type="button" class="button" data-toggle="offCanvasNestedPush">
+            <div class="menu-icon"></div>
+        </button>
+    </div>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvasNestedPush" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="resume.html"target="_self">Resume</a></li>
+                <li><a href="projects.html"target="_self">Projects</a></li>
+                <li><a href="fun.html" target="_self">Fun</a></li>
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        
+
+        <div class= "Headshot photo"  >
+            <img src="headshot_revised.jpg" alt="My HeadShot">
+         </div>
+
+
+         <div class="About-Me">
+            <p>My name is Kevin McDonald and I am a senior at the University of St Thomas. I major in Computer Science and 
+               am hoping to get a job specializing in Artificial Intelligence. I plan on going for my master's when I graduate 
+               and receive my bachelors.I would like to take my graduate courses here at St.Thomas. If that is something that 
+               would interest you, I would recommend looking at that <a href ="https://software.stthomas.edu/" target="_blank">here</a> 
+               I'm not sure what lead me to aspire to become an Artificial Intelligence Engineer, but the idea of see AI in action, especially
+               in something like robotics, seems fascinating to me. Maybe it's because I was a fan of the Terminator movies(the first two, that is).
+                Something that I would like to make in the future would be something in robotics that could make my life easier, such as maybe making 
+                a robot that could clean my house, it would make life that much easier.
+            </p>
+
+        </div>
+
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-4 medium-6 large-12">
+                        <div class="Robot-Photo">
+                            <img src="RoboticLearning.jpg" alt="Robot">
+                        </div>
+                        <div class="Robot-thinking">
+                            <img src="RobotThinking.jpg" alt="Robot-cube">
+                        </div>
+                    </div>
+                    
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+
+        
+        
+        
+       
+    
+    </div>
+
+    <!-- include before closing <body> tag -->
+        <script src="js/foundation.js"></script>
+    <script src="js/vendor.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+
+
+    
+</body>
+</div>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Fun Facts About Me</h1>
+	<title>Fun</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="Fun-Page">
+    <div class="grid-x grid-padding-x">
+        <button type="button" class="button" data-toggle="offCanvasNestedPush">
+            <div class="menu-icon"></div>
+        </button>
+    </div>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvasNestedPush" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="resume.html"target="_self">Resume</a></li>
+                <li><a href="projects.html"target="_self">Projects</a></li>
+                <li><a href="fun.html" target="_self">Fun</a></li>
+                
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+        <div class="About Me" >
+            <p>
+                I like to golf, when I can (living in Minnesota means I am limited to do so from about May-September). When I am not golfing, I like to 
+                go hangout with my friends, whether that is going to the bar for a few drinks, or going to a sporting event of some kind. My favorite 
+                sport is basketball and I love going to Minnesota Timberwolves games.I love watching the marvel movies as well as Star Wars(the original
+                3 and the prequels). I have 3 nephews, Maverick, Tristan, and Rhett ages 3,12,1 respectively. I love playing basketball and have aspirations
+                of one day being able to dunk. One day I would like to Travel to Italy. I think it would be interesting to go to Rome. Also while I'm there,
+                I would like to eat some pizza and gelato (yum!). Things people do not really now about me is that I like to be outdoors. Whether it's fishing,
+                four-wheeling, or jet skiing, I enjoy being outside when I can be. I like meeting new people, so reach out and say hello!
+            </p>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    
+                    <div class="cell small-4 medium-6 large-12">
+                        <div class="Star-Wars">
+                    <img src="Star Wars.jpg" alt="Star Wars">
+                        </div>
+                        <div class= "Minnesota-Timberwolves-Photo">
+                    <img src="Basketball.jpg" alt="Minnesota Timberwolves">
+                   </div>
+                   <div class= "Rome-Photo">
+                    <img src="Rome.jpg" alt="Rome">
+                   </div>
+
+                   <div class= "Golf-Photo">
+                    <img src="Golf_Photo.jpg" alt="Golf">
+                   </div>
+
+
+                    </div>
+                </div>
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto" ></div>
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

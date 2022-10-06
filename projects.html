@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Projects</h1>
+	<title>Projects</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class=" Projects-Page">
+    <div class="grid-x grid-padding-x">
+        <button type="button" class="button" data-toggle="offCanvasNestedPush">
+            <div class="menu-icon"></div>
+        </button>
+    </div>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvasNestedPush" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="resume.html"target="_self">Resume</a></li>
+                <li><a href="projects.html"target="_self">Projects</a></li>
+                <li><a href="fun.html" target="_self">Fun</a></li>
+            </ul>
+        </div>
+        <!-- Your page content lives here -->
+
+      
+        <p>I have not made a lot of projects on my own unfortunately but I had recently
+            made a Web Sequence Diagram for my Senior Capstone class which is a project in
+            itself. The purpose of this sequence diagram is to essentially map out a certain
+            function in code and see where the corresponding method calls go to. For example,
+            my sequence diagram had to do with the "add course" button in Spock. What happens behind
+            the scene? It turns out, quite a bit! And then you have to create a diagram that represents
+            the sequence of code that is executed with that certain action which is shown below.   
+         </p>
+        
+         <p>
+            In my deep learning class I had an assignment where I was given a data set on the different species of Iris
+            and I had to make 5 different networks to have the computer predict the Iris at a certain row in the dataset.
+            First I had to Import the data into my .py file, then I had to convert all the categorical data in the dataset
+            to numerical data. Once I manipulate the data to how I plan on having the computer learn, I start creating my networks.
+            I had to create 5 different networks with different dense layers and dropout rates and layer activation functions to determine
+            which network is the most accurate and can predict the Iris species of a certain row in the dataset. These networks are shown below.
+            
+        </p>
+
+        Below is my results where I predict a species at a certain point in the dataset. I have a graph that shows the validation
+        loss and the training loss. We want that graph to converge at the end like we see below. Then I display the predicted value at 
+        position 0 and what the actual value is and we see that the numbers match. I only gave a high level representaion of what happens
+        and there is much more to unpack. If you are interesting in learning how to create a network, click <a href="https://towardsdatascience.com/step-by-step-guide-to-building-your-own-neural-network-from-scratch-df64b1c5ab6e" target="_blank">here</a>
+    </p>
+
+    <p>
+        One project I did that was not Computer Science related was an ethics paper. I wrote about different philosophies on which ethics
+        was discussed and if people in today's society would classify as an ethical person. To much surprise, the results varied in numerous ways
+        where people you may not have thought of as ethical, would have been considered ethical in one philospher's eye but not in another.
+        Which ethical philosophy would be considered the most important to follow.
+
+    </p>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-4 medium-6 large-12">
+                        <div class="Web-Sequence-Photo">
+                    <img src="Web_Sequence_Diagram.JPG" alt="Web Sequence Diagram">
+                        </div>
+                        <div class= "Network-Model">
+                            <img src="NetworkModel.jpg" alt="Network Model">
+                        </div>
+                        <div class= "Network-Model-Result">
+                            <img src="NetWorkModelResult.jpg" alt="Network Model">
+                        </div>
+
+
+                        <div class= "Ethics-Paper">
+                            <img src="EthicsPaper.JPG" alt="Ethics">
+                        </div>
+                    
+                </div>
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto"></div>
+                    <div class="cell large-auto" ></div>
+                    <div class="cell large-auto" ></div>
+                    <div class="cell large-auto"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

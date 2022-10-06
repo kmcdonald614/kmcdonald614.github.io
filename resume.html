@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Resume</h1>
+	<title>Resume</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="Resume-Page">
+    <div class="grid-x grid-padding-x">
+        <button type="button" class="button" data-toggle="offCanvasNestedPush">
+            <div class="menu-icon"></div>
+        </button>
+    </div>
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvasNestedPush" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="resume.html"target="_self">Resume</a></li>
+                <li><a href="projects.html"target="_self">Projects</a></li>
+                <li><a href="fun.html" target="_self">Fun</a></li>
+                
+            </ul>
+        </div>
+    </div>
+        <!-- Your page content lives here -->
+        <div class= "Resume-Page">
+            <div class="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li><a href="http://www.anokaramsey.edu/"target="blank">Anoka-Ramsey Community College</a>: 2017-2020</li>
+                    <li><a href="https://www.stthomas.edu/" target="blank">University of St Thomas</a>: 2020-present</li>
+                
+                </ul>
+            </div>
+        <div class="Work Experience">
+            <h3>Work Experience</h3>
+            <ul>
+                <li>Anoka County Gatehouse Attendant : June 2012-August 2012</li>
+                <li>Super 8 Hotel Front Desk Employee : 2013-2020</li>
+            </ul>
+        </div>
+        <div class="Achievements and Honors">
+            <h4>Achievements And Honors</h4>
+            <ul>
+                <li>Dean's list: Fall 2020</li>
+                <li>GPA:3.5</li>
+                <li>A member of the University of St.Thomas Computer Science Club</li>
+            </ul>
+
+        </div>
+
+        <div class= "Skills">
+            <h4>Relevant Skills</h4>
+            <ul>
+                <li>Proficient in Java: 3 years experience</li>
+                <li>Experienced with C++: 2 years of experience</li>
+                <li>I work well with others and am a great problem solver</li>
+            </ul>
+        </div>
+        <div class="Contact-Information">
+            <h5>Contact Me</h5>
+            <ul>
+                <li>Phone: 763-257-3048</li>
+                <li>Email:mcdo7322@stthomas.edu</li>
+            </ul>
+        </div>
+    </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <!-- main content within a `grid-container` -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-6 large-4" style="background-color: white;">
+                        
+                    </div>
+                    <div class="cell small-6 large-8" style="background-color: white;"></div>
+                </div>
+                
+                <div class="grid-x grid-padding-x">
+                    <div class="cell large-auto" style="background-color: blue;"></div>
+                    <div class="cell large-auto" style="background-color: blue;"></div>
+                    <div class="cell large-auto" style="background-color: blue;"></div>
+                    <div class="cell large-auto" style="background-color: blue;"></div>
+                    <div class="cell large-auto" style="background-color: blue;"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+
+
+</html>
