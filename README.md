@@ -1,2 +1,3 @@
-# kmcdonald614.github.io
-Assignment 1
+This project is simply a personal website about me. The point of this assignment was to make us more familiar with CSS and HTML. More specifically it was required for us to have inline CSS and have all of our paths relative. There isn't much to say about this project other than that people could go on here if they wanted to learn more about me. To run this project, you would have to go into VS code and download the extensions required, which are live share, HTML CSS Support, and live server. Once you have these installed, you can click "go live" in the bottom right corner and once you do that, a web browser will open up with my home page (index.html) along with the homepage, we have fun.html which is a page about what I like to do in my spare time. Resume.html which is my resume for this page, and projects.html which is a page dedicated to my projects I have made in school.
+
+To navigate through these pages, just replace index.html with either of the other html pages or click on the navigation bar which is linked to the appropriate pages based on the button that you push.
